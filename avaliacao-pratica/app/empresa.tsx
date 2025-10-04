@@ -25,7 +25,7 @@ export default function EmpresaScreen() {
             <MaterialIcons name="business" size={20} color="#666" />
             <View style={styles.infoContent}>
               <Text style={commonStyles.subtitle}>Razão Social</Text>
-              <Text style={commonStyles.text}>quando a prfdf
+              <Text style={commonStyles.text}>
                 Advogueido Seu Jorge
               </Text>
             </View>
