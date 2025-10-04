@@ -16,13 +16,13 @@ export default function GerenciamentoScreen() {
     };
 
     setBens(prevBens => [...prevBens, bemComId]);
-    Alert.alert('Sucesso', 'Bem cadastrado com sucesso!');
+    Alert.alert('Sucesso', 'Bem cadastrado com sucesso! Seu Jorge agradece.');
   };
 
   const handleDeleteBem = (id: string) => {
     Alert.alert(
       'Confirmar Exclusão',
-      'Tem certeza que deseja excluir este bem?',
+      'Tem certeza que deseja excluir este bem? Seu Jorge não perdoa.',
       [
         {
           text: 'Cancelar',
@@ -33,7 +33,7 @@ export default function GerenciamentoScreen() {
           style: 'destructive',
           onPress: () => {
             setBens(prevBens => prevBens.filter(bem => bem.id !== id));
-            Alert.alert('Sucesso', 'Bem excluído com sucesso!');
+            Alert.alert('Sucesso', 'Bem excluído com sucesso! Aguarde algo...');
           },
         },
       ]

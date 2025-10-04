@@ -13,7 +13,7 @@ export default function EmpresaScreen() {
           <View style={styles.headerContainer}>
             <MaterialIcons name="business" size={48} color="#007aff" />
             <Text style={styles.companyName}>
-              Advocacia & Consultoria Jurídica Ltda.
+              Seu Jorge Adogueido LTDA.
             </Text>
           </View>
         </View>
@@ -25,8 +25,8 @@ export default function EmpresaScreen() {
             <MaterialIcons name="business" size={20} color="#666" />
             <View style={styles.infoContent}>
               <Text style={commonStyles.subtitle}>Razão Social</Text>
-              <Text style={commonStyles.text}>
-                Advocacia & Consultoria Jurídica Ltda.
+              <Text style={commonStyles.text}>quando a prfdf
+                Advogueido Seu Jorge
               </Text>
             </View>
           </View>
@@ -35,7 +35,7 @@ export default function EmpresaScreen() {
             <MaterialIcons name="assignment" size={20} color="#666" />
             <View style={styles.infoContent}>
               <Text style={commonStyles.subtitle}>CNPJ</Text>
-              <Text style={commonStyles.text}>12.345.678/0001-90</Text>
+              <Text style={commonStyles.text}>123.456.789/0001-00</Text>
             </View>
           </View>
 
@@ -44,9 +44,9 @@ export default function EmpresaScreen() {
             <View style={styles.infoContent}>
               <Text style={commonStyles.subtitle}>Endereço</Text>
               <Text style={commonStyles.text}>
-                Rua dos Advogados, 1234{'\n'}
-                Centro - São Paulo/SP{'\n'}
-                CEP: 01234-567
+                Estrada da Gávea, 428{'\n'}
+                Gávea - Rio de Janeiro/RJ{'\n'}
+                CEP: 22451-264
               </Text>
             </View>
           </View>
@@ -55,7 +55,7 @@ export default function EmpresaScreen() {
             <MaterialIcons name="phone" size={20} color="#666" />
             <View style={styles.infoContent}>
               <Text style={commonStyles.subtitle}>Telefone</Text>
-              <Text style={commonStyles.text}>(11) 3456-7890</Text>
+              <Text style={commonStyles.text}>(21) 4002-8922</Text>
             </View>
           </View>
 
@@ -64,7 +64,7 @@ export default function EmpresaScreen() {
             <View style={styles.infoContent}>
               <Text style={commonStyles.subtitle}>E-mail</Text>
               <Text style={commonStyles.text}>
-                contato@advocaciaconsultoria.com.br
+                contato@seujorgefazmilagre.com.br
               </Text>
             </View>
           </View>
@@ -74,7 +74,7 @@ export default function EmpresaScreen() {
             <View style={styles.infoContent}>
               <Text style={commonStyles.subtitle}>Website</Text>
               <Text style={commonStyles.text}>
-                www.advocaciaconsultoria.com.br
+                www.meajudaseujorge.com.br
               </Text>
             </View>
           </View>
@@ -83,15 +83,12 @@ export default function EmpresaScreen() {
         <View style={commonStyles.card}>
           <Text style={commonStyles.title}>Sobre a Empresa</Text>
           <Text style={commonStyles.text}>
-            Fundada em 2010, a Advocacia & Consultoria Jurídica Ltda. é uma 
-            empresa especializada em direito empresarial, trabalhista e civil. 
-            Com mais de 13 anos de experiência no mercado, oferecemos 
-            consultoria jurídica completa para empresas de todos os portes.
+            Fundada em 2010, a Advocacia Seu Jorge Advogueido Ltda. é uma 
+            empresa especializada em direito penal, livrando os marginais da condenação.
           </Text>
           <Text style={[commonStyles.text, { marginTop: 12 }]}>
             Nossa missão é fornecer soluções jurídicas eficazes e 
-            personalizadas, sempre priorizando a excelência no atendimento 
-            e a satisfação dos nossos clientes.
+            personalizadas, sempre priorizando o aumento de criminosos no país.
           </Text>
         </View>
       </ScrollView>
